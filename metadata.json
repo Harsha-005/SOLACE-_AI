@@ -1,0 +1,6 @@
+{
+  "name": "SOLACE AI",
+  "description": "Mindful emotional sanctuary with Gemini-powered AI companion, contextual conversations, mood journaling, and guided breathing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

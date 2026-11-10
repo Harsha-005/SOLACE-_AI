@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Playfair Display', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FAF8F3;
+    color: #1B3022;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  h1, h2, h3, .font-serif-title {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom organic animations and ambient shadows */
+.shadow-sanctuary {
+  box-shadow: 0px 8px 30px rgba(27, 48, 34, 0.04), 0px 2px 8px rgba(27, 48, 34, 0.02);
+}
+
+.shadow-sanctuary-hover {
+  box-shadow: 0px 12px 36px rgba(27, 48, 34, 0.08), 0px 4px 12px rgba(27, 48, 34, 0.04);
+}
+
+.shadow-glow-sage {
+  box-shadow: 0px 0px 30px rgba(122, 154, 112, 0.35);
+}
+
+.shadow-glow-lavender {
+  box-shadow: 0px 0px 30px rgba(200, 191, 240, 0.45);
+}
+
+/* Hide scrollbar for clean mobile tabs */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
